@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.su.mac.myapplication.MainActivity">
+
+
+    <com.su.mac.myapplication.MyView
+        android:id="@+id/my_view"
+        android:layout_width="150dp"
+        android:layout_height="150dp">
+
+    </com.su.mac.myapplication.MyView>
+
+    <TextView
+        android:id="@+id/start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="开始动画"
+        android:textColor="#000000" />
+
+</LinearLayout>
